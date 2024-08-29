@@ -1,0 +1,38 @@
+.movie-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-info {
+    padding: 15px;
+  }
+  
+  .movie-info h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .movie-info p {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .synopsis {
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
